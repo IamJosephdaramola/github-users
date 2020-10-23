@@ -9,7 +9,7 @@ const Login = () => {
 	return (
 		<Wrapper>
 			<div className='container'>
-				<img src={loginImg} alt='github users' />
+				<img src={loginImg} alt='github user' />
 				<h1>github user</h1>
 				<button onClick={loginWithRedirect} className='btn'>
 					Login / signup
@@ -28,7 +28,8 @@ const Wrapper = styled.section`
 		text-align: center;
 	}
 	img {
-		margin-bottom: 2rem;
+		display: block;
+		margin: 0 auto 2rem auto;
 	}
 	h1 {
 		margin-bottom: 1.5rem;
